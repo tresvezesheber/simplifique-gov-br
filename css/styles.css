@@ -11,15 +11,15 @@ body {
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 /* Menu */
 .menu {
-  font-family: "Open Sans", sans-serif;
   background: #f1f1f1;
   color: #606060;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (max-width: 960px) {
@@ -34,23 +34,24 @@ img {
 }
 
 .menu .container {
-  max-width: 960px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .menu a {
   padding: 10px 14px;
-  text-decoration: none;
   color: currentColor;
   font-weight: bold;
   font-size: 0.75em;
+  text-decoration: none;
 }
 
 .nav-menu {
   display: flex;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -95,7 +96,6 @@ img {
   max-width: 960px;
   margin: 0 auto;
   padding: 40px 0 20px 0;
-  /* display: flex; */
 }
 
 .title h1 {
@@ -105,8 +105,8 @@ img {
 }
 
 .title p {
-  font-size: 0.875em;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
   text-transform: uppercase;
 }
 
@@ -123,9 +123,9 @@ img {
 }
 
 .banner.container {
+  display: flex;
   max-width: 960px;
   margin: 0 auto;
-  display: flex;
 }
 
 /* Apresentação */
@@ -143,10 +143,10 @@ img {
 }
 
 .apresentacao h1 {
-  text-align: center;
-  color: #172838;
   font-family: "Open Sans", sans-serif;
+  color: #172838;
   font-size: 1.75em;
+  text-align: center;
 }
 
 .apresentacao p {
@@ -176,10 +176,10 @@ img {
 }
 
 .como-funciona h1 {
-  text-align: center;
-  color: #172838;
   font-family: "Open Sans", sans-serif;
+  color: #172838;
   font-size: 1.75em;
+  text-align: center;
 }
 
 .como-funciona p {
@@ -205,19 +205,19 @@ img {
 
 /* Mini-Banners */
 .mini-banners {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 40px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 960px;
+  padding: 40px 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 960px) {
   .mini-banners {
+    justify-content: space-around;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: space-around;
   }
 }
 
@@ -233,12 +233,12 @@ img {
 }
 
 .footer .container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -249,14 +249,14 @@ img {
 }
 
 .footer-end {
+  margin: 0 auto;
   background: #fff;
   color: #000;
-  margin: 0 auto;
 }
 
 .footer-end .container {
-  padding: 12px 0;
   max-width: 960px;
+  padding: 12px 0;
 }
 
 @media screen and (max-width: 960px) {
