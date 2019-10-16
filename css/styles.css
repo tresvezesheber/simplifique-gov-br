@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Menu */
+.menu {
+  font-family: "Open Sans", sans-serif;
+  background: #f1f1f1;
+  color: #606060;
+}
+
+@media screen and (max-width: 960px) {
+  .menu {
+    padding: 0 15px;
+  }
+
+  .menu .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.menu .container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  padding: 10px 14px;
+  text-decoration: none;
+  color: currentColor;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+.nav-menu {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.img-logo img {
+  display: block;
+  width: 28px;
+}
+
+.logo a {
+  text-transform: uppercase;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li a {
+  display: inline-block;
+  border-left: 2px solid #dfdfdf;
+}
+
+/* Title */
+.title {
+  background: #1659bf;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .title {
+    padding: 0 15px;
+  }
+}
+
+.title .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
+  /* display: flex; */
+}
+
+.title h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title p {
+  font-size: 0.875em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+/* Banner */
+.banner {
+  padding: 40px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+@media screen and (max-width: 960px) {
+  .banner {
+    padding: 20px 0;
+  }
+}
+
+.banner.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Apresentação */
+.apresentacao {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 960px) {
+  .apresentacao {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.apresentacao h1 {
+  text-align: center;
+  color: #172838;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75em;
+}
+
+.apresentacao p {
+  margin: 20px 0;
+  font-size: 0.875em;
+  line-height: 1.275em;
+}
+
+/* Como Funciona */
+.como-funciona {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 0 40px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.como-funciona .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.como-funciona .desc,
+.como-funciona .infografico {
+  flex: 1 1 460px;
+  margin: 10px;
+}
+
+.como-funciona h1 {
+  text-align: center;
+  color: #172838;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75em;
+}
+
+.como-funciona p {
+  margin: 20px 0;
+  font-size: 0.875em;
+  line-height: 1.275em;
+}
+
+@media screen and (max-width: 960px) {
+  .como-funciona {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .como-funciona .container {
+    justify-content: space-around;
+  }
+
+  .como-funciona img {
+    margin: 0 auto;
+  }
+}
+
+/* Mini-Banners */
+.mini-banners {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .mini-banners {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+  }
+}
+
+.mini-banners .item-banner {
+  margin: 10px 10px;
+}
+
+/* Footer */
+.footer {
+  border-top: 20px solid #1659bf;
+  background: #0042b1;
+  color: #fff;
+}
+
+.footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.footer-end {
+  background: #fff;
+  color: #000;
+  margin: 0 auto;
+}
+
+.footer-end .container {
+  padding: 12px 0;
+  max-width: 960px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-end .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.footer-end p {
+  font-size: 0.75em;
+}
